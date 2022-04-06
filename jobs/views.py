@@ -26,11 +26,11 @@ def encontrar_jobs(request):
 
             if not prazo_maximo:
                 prazo_maximo = datetime(year=3000, month=1, day=1)
-            
+
             if categoria == 'D':
-                categoria = ['D',]
+                categoria = ['D', ]
             elif categoria == 'EV':
-                categoria = ['EV',]
+                categoria = ['EV', ]
 
             jobs = Jobs.objects.filter(preco__gte=preco_minimo)\
                 .filter(preco__lte=preco_maximo)\

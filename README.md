@@ -36,6 +36,9 @@ $ conda activate
 # Instale as dependências
 $ conda env create -f environment.yml
 
-# Iniciar a aplicação
+# Ative o ambiente
+$ conda activate env_freelaway
+
+# Inicie a aplicação
 $ python3 manage.py runserver
 ```

@@ -25,7 +25,7 @@ A aplicação consiste em um site para freelancers encontrarem trabalhos. Nele �
 - Banco de dados: SQlite3
 
 ## :wrench: Pré-requisitos
-Você precisa ter instalado em sua máquina as seguintes ferramentas: [Git]() e o [Anaconda]().
+Você precisa ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com/) e o [Anaconda](https://www.anaconda.com/).
 ```bash
 # Clone este repositório
 $ git clone <https://github.com/Werberty/Freelaway-psw.git>

@@ -23,3 +23,19 @@ A aplicação consiste em um site para freelancers encontrarem trabalhos. Nele �
 - CSS
 - Bootstrap
 - Banco de dados: SQlite3
+
+## :wrench: Pré-requisitos
+Você precisa ter instalado em sua máquina as seguintes ferramentas: [Git]() e o [Anaconda]().
+```bash
+# Clone este repositório
+$ git clone <https://github.com/Werberty/Freelaway-psw.git>
+
+# Acesse o diretório principal do projeto e ative o ambiente conda
+$ conda activate
+
+# Instale as dependências
+$ conda env create -f environment.yml
+
+# Iniciar a aplicação
+$ python3 manage.py runserver
+```
